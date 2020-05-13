@@ -1,0 +1,173 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/*****header section start*****/
+
+header{
+	background: #f6f9f9;
+	padding: 28px 0px;
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+
+}
+.menu{
+	width: 70%;
+	float: left;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 10px 30px; 
+}
+nav ul a{
+	text-decoration: none;
+	color: #161616;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+
+
+/********start banner*******/
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+}
+.banner-content{
+	padding-top: 215px;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+.banner-content h2{
+	font-size: 120px;
+	color: #fff;
+	font-weight: bold;
+}
+.banner-content span{
+	display: block;
+	border-bottom: 2px solid #15a4fa;
+	margin: 10px auto;
+	width: 80%;
+}
+.banner-content p{
+	color: white;
+	font-weight: 3000;
+}
+.btn{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	padding: 8px 18px;
+	color: #fff;
+	margin: 50px 0px 120px;
+}
+.btn-icon{
+	color: #fff;
+	margin-bottom: 70px;
+}
+
+
+/*****start about area*********/
+
+.about{
+	background: #f6f9f9;
+	width: 100%;
+	float: left;
+}
+.about-content{
+	text-align: center;
+	padding: 50px 0px;
+}
+.about-content h2{
+	margin: 20px auto;
+}
+.about-content p{
+
+}
+.protfolio{
+	width: 100%;
+	float: left;
+}
+.protfolio img{
+	display:block;
+}
+.protfolio-one{
+	width: 33.33%;
+	float: left;
+}
+.protfolio-two{
+	width: 33.33%;
+	float: left;
+}
+.protfolio-three{
+	width: 33.33%;
+	float: left;
+}
+
+/******stay with us start********/
+
+.stay-with-us{
+	width: 100%;
+	float: left;
+	background: #2d364b;
+	background-size: cover;
+}
+.stay-with-us h2{
+	text-align: center;
+	font-size: 41px;
+	margin: 40px;
+	color: white;
+}
+.stay-with-us p{
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 32px;
+	color: #626770;
+}
+.login-form{
+	background: transparent;
+    border: 1px solid #626770;
+	margin: 20px 270px;
+    width: 50%;
+    height: 65px;
+    padding: 12px 12px;
+    color: #fff;
+}
+.btn{
+	background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 18px 48px;
+    color: #fff;
+    margin: 50px 0px 120px;
+    display: block;
+    margin: 50px auto;
+}
+.login-form-m{
+	background: transparent;
+    border: 1px solid #626770;
+    margin: 20px 270px;
+    width: 50%;
+    height: 65px;
+    padding: 15px 20px 120px 10px;
+    color: #fff;
